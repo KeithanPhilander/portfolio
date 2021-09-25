@@ -5,6 +5,9 @@ div[role='alert'] {
 }
 
 address {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     z-index: 10;
 }
 
@@ -55,15 +58,19 @@ address {
 }
 
 .info__title {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
     color: rgb(214, 214, 214);
     font-size: 1.25rem;
     padding: .725rem 0;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .info__detail {
     color: #b092d1;
     font-weight: 300;
+    line-height: 1.5rem;
 }
 
 .info__wrapper a {

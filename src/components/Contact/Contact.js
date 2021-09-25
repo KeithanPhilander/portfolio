@@ -31,18 +31,18 @@ const Contact = () => {
                 <div className="contact__info">
                     <address>
                         <div className="info__wrapper">
-                            <h3 className="info__title">Address</h3>
+                            <h3 className="info__title"> <img src="/images/location.svg" alt="location icon" /> Address</h3>
                             <p className="info__detail">169 Botma Street, Steenberg</p>
                             <p className="info__detail">Cape Town, 7945</p>
                             <p className="info__detail">South Africa</p>
                         </div>
                         <div className="info__wrapper">
-                            <h3 className="info__title">Lets Chat</h3>
+                            <h3 className="info__title"> <img src="/images/phone.svg" alt="phone icon" /> Lets Chat</h3>
                             <p className="info__detail">(+27) 61 520 2073</p>
                         </div>
                         <div className="info__wrapper">
-                            <h3 className="info__title">Pop a mail</h3>
-                            <a href="mailto:bluegumdev@gmail.com">bluegumdev@gmail.com</a>
+                            <h3 className="info__title"> <img src="/images/email.svg" alt="email icon" /> Pop a mail</h3>
+                            <a href="mailto:bluegumdev@gmail.com"> bluegumdev@gmail.com</a>
                         </div>
                     </address>
                 </div>

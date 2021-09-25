@@ -27,7 +27,8 @@ const Home = ({ metaData }) => {
                 <p>I'm the Front-End Web Developer based in Cape Town, South Africa. I have great interest in UI design and creating intuitive, dynamic user experiences.</p>
 
                 <div className="links">
-                     <a href="https://github.com/KeithanPhilander" target="_blank" rel="noopener noreferrer">Github Profile</a>
+                     <a className="link__github" href="https://github.com/KeithanPhilander" target="_blank" rel="noopener noreferrer"> <img src="/images/github.svg" alt="github icon" /> Github Profile</a>
+                     <a href="/resume.pdf" download="resume" target="_blank" rel="noopener noreferrer"> <img src="/images/download.svg" alt="download icon"/> Download Resume</a>
                 </div>
             </div>
 
