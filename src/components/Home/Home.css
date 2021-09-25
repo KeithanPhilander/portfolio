@@ -67,6 +67,7 @@
     align-items: center;
     gap: .5rem;
     padding: 1rem 2rem;
+    text-align: center;
     font-size: 1rem;
     font-weight: 700;
     color: inherit;
@@ -114,5 +115,10 @@
 
     .home__text p {
         margin-top: .625rem;
+    }
+
+    .links a {
+        padding: .5rem 1rem;
+        font-size: .8rem;
     }
 }
