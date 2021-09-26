@@ -32,8 +32,7 @@ const Contact = () => {
                     <address>
                         <div className="info__wrapper">
                             <h3 className="info__title"> <img src="/images/location.svg" alt="location icon" /> Address</h3>
-                            <p className="info__detail">169 Botma Street, Steenberg</p>
-                            <p className="info__detail">Cape Town, 7945</p>
+                            <p className="info__detail">Cape Town</p>
                             <p className="info__detail">South Africa</p>
                         </div>
                         <div className="info__wrapper">
