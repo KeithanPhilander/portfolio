@@ -50,6 +50,9 @@
     letter-spacing: .25rem;
 }
 
+.project__info p {
+    line-height: 1.5rem;
+}
 
 .portfolio__project:hover {
     transform: scale(1.05);
