@@ -13,14 +13,25 @@ const Project = ({ project }) => {
       >
         <h2>{project.title}</h2>
         <p>{project.description}</p>
+        <div className="project__buttons">
         <a
           href={project.projectUrl}
           rel="noreferrer"
           target="_blank"
-          className="project__button"
+          className="project__button demo"
         >
-          View Project
+          Demo
         </a>
+        <a
+          href={project.projectUrl}
+          rel="noreferrer"
+          target="_blank"
+          className="project__button source"
+        >
+          Source
+        </a>
+        </div>
+        
       </div>
     </div>
   );

@@ -29,6 +29,12 @@
 .navbar__link {
     text-decoration: none;
     color: inherit;
+    transition: color ease .3s;
+}
+
+.navbar__link:hover,
+.navbar__link:focus {
+    color: #fdfffca4;
 }
 
 @media(max-width: 768px) {

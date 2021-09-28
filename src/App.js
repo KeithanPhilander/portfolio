@@ -14,19 +14,19 @@ const App = () => {
     const projectData = [
         {
             title: "Netflix Clone",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe cumque quisquam nisi iusto placeat id atque veniam adipisci!",
+            description: "A simple netflix clone built with React. I used TMDB api and an npm package called movie-trailer. You can scroll through all the latest movies and series and watch the trailers.",
             projectUrl: "https://netflix-clone-99d0a.web.app/",
             image: "images/netflix.jpg"
         },
         {
             title: "Covid-19 Tracker",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe cumque quisquam nisi iusto placeat id atque veniam adipisci!",
+            description: "A covid-19 tracker built with React, disease.sh, leaflet, material-ui and chartjs. You can view current covid stats both local and international.",
             projectUrl: "https://covid19-tracker-f002d.web.app/",
             image: "images/covid.jpg"
         },
         {
             title: "Amazon Clone",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe cumque quisquam nisi iusto placeat id atque veniam adipisci!",
+            description: "An E-Commerce site built with React and material-ui. It's a clone of the popular Amazon website. You can signup/login and add and remove items from your cart.",
             projectUrl: "https://clone-eb3bc.web.app/",
             image: "images/amazon.jpg"
         }

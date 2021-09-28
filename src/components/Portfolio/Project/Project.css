@@ -44,14 +44,30 @@
     transition: opacity 1s ease;
 }
 
+.project__info::after {
+    content: "";
+    background-color: #000;
+    opacity: .7;
+    position: absolute;
+    inset: 0 0 0 0;
+}
+
 .project__info h2 {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: .25rem;
+    z-index: 1;
 }
 
 .project__info p {
     line-height: 1.5rem;
+    z-index: 1;
+}
+
+.project__buttons {
+    display: flex;
+    gap: 1rem;
+    z-index: 1;
 }
 
 .portfolio__project:hover {
@@ -70,11 +86,21 @@
 
 .project__button {
     padding: 1rem 2rem;
-    z-index: 10;
+    z-index: 1;
     cursor: pointer;
     background-color: transparent;
+    border-radius: 4px;
     color: #fff;
+    
+}
+
+.demo {
     border: 2px solid #CCA9F4;
+}
+
+.source {
+    border: 2px solid #fff;
+    pointer-events: none;
 }
 
 
