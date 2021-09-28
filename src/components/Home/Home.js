@@ -15,7 +15,7 @@ const Home = ({ metaData }) => {
                             steps={[
                                 'Web Developer‍',
                                 1000,
-                                'UX/UI designer',
+                                'UX/UI Designer',
                                 1000,
                                 'Gamer',
                                 500
