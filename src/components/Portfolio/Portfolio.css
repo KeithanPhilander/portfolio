@@ -9,8 +9,8 @@
 .portfolio__projects {
     padding: 6rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+    grid-gap: 3rem;
 }
 
 

@@ -55,6 +55,7 @@
 .project__info h2 {
     text-transform: uppercase;
     font-weight: 300;
+    font-size: 1rem;
     letter-spacing: .25rem;
     z-index: 1;
 }
@@ -62,6 +63,7 @@
 .project__info p {
     line-height: 1.5rem;
     z-index: 1;
+    color: #b9b9cf;
 }
 
 .project__buttons {
@@ -111,5 +113,23 @@
 
     .project__info {
         padding: 1rem 2rem;
+    }
+
+    .project__info {
+        padding: 1rem 2rem;
+    }
+
+    .project__info p {
+        font-size: .8rem;
+    }
+
+    .project__button {
+        padding: .5rem 1rem;
+        z-index: 1;
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 4px;
+        color: #fff;
+        
     }
 }
