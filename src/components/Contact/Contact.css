@@ -104,17 +104,17 @@ textarea {
     border: 1px solid #CCA9F4;
     background: #0d151a;
     color: #fff;
-    padding: 15px 10px;
-    margin-bottom: 10px;
-    font-size: 14px;
+    padding: 1rem .7rem;
+    margin-bottom: .7rem;
+    font-size: 1rem;
 }
 
 label {
     line-height: 2;
     text-align: left;
     display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
     color: white;
     font-size: .725rem;
     letter-spacing: .2rem;
@@ -153,6 +153,16 @@ input[type="submit"] {
 
     form {
         padding: 1.25rem 1.75rem;
+    }
+
+    label {
+        font-size: .7rem;
+    }
+
+    input,
+    textarea {
+        padding: .7rem .4rem;
+        font-size: 1rem;
     }
 
 }
