@@ -29,6 +29,24 @@ const App = () => {
             description: "An E-Commerce site built with React and material-ui. It's a clone of the popular Amazon website. You can signup/login and add and remove items from your cart.",
             projectUrl: "https://clone-eb3bc.web.app/",
             image: "images/amazon.jpg"
+        },
+        {
+            title: "Canajoy",
+            description: "Welcome to CannaJoy, a cutting-edge cannabis experience meticulously crafted with React.",
+            projectUrl: "https://cerulean-chebakia-c0dd4c.netlify.app/",
+            image: "images/netflix.jpg"
+        },
+        {
+            title: "KNC Branding",
+            description: "KNC Branding Studio is a design and manufacturing hub dedicated to providing affordable signage solutions.",
+            projectUrl: "https://zen-swirles-fc5d47.netlify.app/",
+            image: "images/covid.jpg"
+        },
+        {
+            title: "Sunnyside Demo",
+            description: "Welcome to Sunnyside, where creativity meets strategy. We specialize in accelerating brand growth through captivating visuals that speak louder than words.",
+            projectUrl: "https://festive-rosalind-3aec0c.netlify.app/",
+            image: "images/amazon.jpg"
         }
     ]
 
