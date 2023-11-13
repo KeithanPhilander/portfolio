@@ -31,10 +31,10 @@ const App = () => {
             image: "images/amazon.jpg"
         },
         {
-            title: "Canajoy",
+            title: "Cannajoy",
             description: "Welcome to CannaJoy, a cutting-edge cannabis experience meticulously crafted with React.",
             projectUrl: "https://cerulean-chebakia-c0dd4c.netlify.app/",
-            image: "images/netflix.jpg"
+            image: "images/cannajoy.png"
         },
         {
             title: "KNC Branding",
